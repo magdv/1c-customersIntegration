@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7e76d83-d658-45ed-b309-9913e22d5a9d">
+  <name>Каргомарт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Каргомарт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КМ_ОбщаяКартинкаПодсистема</picture>
+  </picture>
+  <content>DataProcessor.КМ_РабочееМесто</content>
+  <content>Document.КМ_Заказ</content>
+  <content>Catalog.КМ_ПунктыПогрузкиВыгрузки</content>
+  <content>Catalog.КМ_Сотрудники</content>
+  <content>InformationRegister.КМ_ДанныеДляВыгрузки</content>
+  <content>Enum.КМ_СтатусыЗаказов</content>
+</mdclass:Subsystem>

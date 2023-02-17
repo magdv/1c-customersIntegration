@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e540424d-7315-4c4b-9471-7c655a884a44">
+  <name>КМ_ОбщийМодульДФИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль ДФИ</value>
+  </synonym>
+  <comment>github.com/KotovDima1C/DFI</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03e1cd02-5ff4-4f32-9d14-c823c161c917">
+  <producedTypes>
+    <refType typeId="0646fe6d-e569-4230-8a76-8de5baa46b27" valueTypeId="da247b5c-097c-4455-a148-d5d2a9ca3f48"/>
+    <listType typeId="049d9805-a540-4cc3-8058-4d452517402a" valueTypeId="d7026055-03c9-41ed-ac4c-2c0ff8eb2e30"/>
+    <managerType typeId="ad5a0445-ae94-4d44-b4d9-1202bcdbc828" valueTypeId="35b317c0-595c-4921-a073-494cc54961bb"/>
+  </producedTypes>
+  <name>КМ_СтатусыЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>К м статусы заказов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="35b42e06-77a1-4670-af43-0f95750fe19c">
+    <name>Черновик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Черновик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adec2c41-6a31-4ce9-a421-062e22f25308">
+    <name>Опубликован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc24f874-566f-4c65-b319-c284764cf2a8">
+    <name>ВТоргах</name>
+    <synonym>
+      <key>ru</key>
+      <value>В торгах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="99268967-316b-4c9d-8960-a16bb8369d03">
+    <name>ОбработкаПослеТоргов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка после торгов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09b63218-dbe9-444b-9669-bcee3ccb9c71">
+    <name>Исполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполняется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a49fbfd9-5c6d-44fd-91e2-a3f56eb98b64">
+    <name>Завершен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3111617a-5195-453a-b333-2b85dba47fee">
+    <name>Архивный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архивный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="80e68990-3947-434f-83f7-65bfc75a28c5">
+    <name>Удален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удален</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="73c7fe85-5616-4876-ad2c-a6e8955ba73d">
+  <name>CargomartExtension</name>
+  <synonym>
+    <key>ru</key>
+    <value>Cargomart extension</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+    <defaultStyle>Extended</defaultStyle>
+    <defaultRoles>Extended</defaultRoles>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="39366836-7e68-4c56-b389-ac8745215eac"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4eacc93a-b998-4fa2-84ab-ac39ae8abfee"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a695daec-d6be-4720-9570-cf19d77d38e0"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0a08ba2a-584a-473c-ac18-cede114dea98"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c50a03a4-41db-45e8-93f4-63ca12f4289f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="71beaf83-e033-470d-bbff-10188922499d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="dc2e9b8a-04d0-4a14-97f7-c87dd12598c7"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>КМ_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.КМ_ОсновнаяРоль</defaultRoles>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.17</compatibilityMode>
+  <languages uuid="24d6e279-087e-4446-914a-42ac10e2451d">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Каргомарт</subsystems>
+  <commonPictures>CommonPicture.КМ_Машинка</commonPictures>
+  <commonPictures>CommonPicture.КМ_Обменяться</commonPictures>
+  <commonPictures>CommonPicture.КМ_ОбщаяКартинкаПодсистема</commonPictures>
+  <commonPictures>CommonPicture.КМ_ОткудаКуда</commonPictures>
+  <roles>Role.КМ_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.КМ_ОбщийМодульВызовСервера</commonModules>
+  <commonModules>CommonModule.КМ_ОбщийМодульДФИ</commonModules>
+  <commonModules>CommonModule.КМ_ОбщийМодульКлиент</commonModules>
+  <commonModules>CommonModule.КМ_ОбщийМодульКлиентСервер</commonModules>
+  <commonModules>CommonModule.КМ_ОбщийМодульПовтИсп</commonModules>
+  <commonModules>CommonModule.КМ_ОбщийМодульСервер</commonModules>
+  <catalogs>Catalog.КМ_ПунктыПогрузкиВыгрузки</catalogs>
+  <catalogs>Catalog.КМ_Сотрудники</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <documents>Document.КМ_Заказ</documents>
+  <enums>Enum.КМ_ВидыСтатусовОбновленияЗаказаИзКМ</enums>
+  <enums>Enum.КМ_СтатусыЗаказов</enums>
+  <enums>Enum.КМ_ТипыМаршрутнойТочки</enums>
+  <dataProcessors>DataProcessor.КМ_РабочееМесто</dataProcessors>
+  <dataProcessors>DataProcessor.РегистрацияИзмененийДляОбменаДанными</dataProcessors>
+  <informationRegisters>InformationRegister.КМ_ДанныеДляВыгрузки</informationRegisters>
+  <informationRegisters>InformationRegister.КМ_СтатусыОбновленияЗаказовИзКМ</informationRegisters>
+</mdclass:Configuration>

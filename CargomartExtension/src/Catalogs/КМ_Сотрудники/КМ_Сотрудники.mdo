@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48922b11-0b87-4822-818d-fb8d4a62cc9b">
+  <producedTypes>
+    <objectType typeId="f830d559-ca98-4a7a-af62-fbf5b6efe13d" valueTypeId="6268c00f-5021-4ea8-9046-d3bc71afa21c"/>
+    <refType typeId="858a016b-8de8-4512-999f-fc7195548b2a" valueTypeId="0dcf77b5-e24a-47ee-af49-a55bfb8e59b2"/>
+    <selectionType typeId="92573b8b-e5f7-41ad-92c5-e60ff8bb4cc6" valueTypeId="3551564d-485e-49c7-ba09-ce82087584f4"/>
+    <listType typeId="63100168-123c-44e5-8869-95c5c997d4dc" valueTypeId="52e17461-45de-4d14-ad8b-0b5925d67357"/>
+    <managerType typeId="449e3441-df16-4e77-a003-fc8352d449e4" valueTypeId="3ef0d4b3-cf61-42f0-b008-6405827e0779"/>
+  </producedTypes>
+  <name>КМ_Сотрудники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники Каргомарт</value>
+  </synonym>
+  <comment>Сотрудники, синхронизированные с Каргомартом.</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КМ_Сотрудники.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.КМ_Сотрудники.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Сотрудники Каргомарт</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КМ_Сотрудники.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КМ_Сотрудники.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="14b3e8a5-6492-4320-9393-fd9ae694ca9d">
+    <name>КаргомартИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каргомарт ИД</value>
+    </synonym>
+    <comment>Поле &quot;id&quot;</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd68ba59-3ac2-4daf-93ad-2f3f246a88f9">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc16018b-d0b6-4353-b11d-e140d8dccaf6">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9ff04cf9-46bd-44b3-980c-4ff0abe9f14c">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <comment>Поле &quot;roleId&quot;: 0- контакт, 1- читатель, 2- редактор, 3- владелец</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61b77f2b-fbd2-4096-bbaf-e063a1597f03">
+    <name>ДетальнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детальная информация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c90a1ebc-95f2-4e11-8734-36b7806496a0">
+    <name>СтатусКонтактногоEMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус контактного e-mail</value>
+    </synonym>
+    <comment>поле &quot;contactEmailStatus&quot;, [ confirmed, unconfirmed ]</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a3265da7-9482-434c-b9a7-7f9c568e34e5">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe874bb9-0ff8-480b-b7c4-421c2a6b6312">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceb28777-1f24-4f33-8508-350d39633e46">
+  <producedTypes>
+    <refType typeId="37378a4e-e83e-4879-bf86-30c4421bb3d5" valueTypeId="6ff7c39a-2b38-46a9-9171-38e7c947f630"/>
+    <listType typeId="10e24e3a-6309-4065-aa3c-46ed4a9721e7" valueTypeId="8b10e27c-417f-4929-acb0-039feb1f6f2c"/>
+    <managerType typeId="a32b1a2b-ebdd-46db-b1e0-696f90088b32" valueTypeId="07cdce94-a1ad-4f79-afd3-a80dcd3ef414"/>
+  </producedTypes>
+  <name>КМ_ТипыМаршрутнойТочки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы маршрутной точки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f6d34c1-ba2e-46f6-9a19-5a3452d24661">
+    <name>load</name>
+    <synonym>
+      <key>ru</key>
+      <value>load</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ac14d97-736e-4d99-806f-288246f2c7a0">
+    <name>unload</name>
+    <synonym>
+      <key>ru</key>
+      <value>unload</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a02907ac-62ca-417e-ba3b-85338827b7c1">
+    <name>loadUnload</name>
+    <synonym>
+      <key>ru</key>
+      <value>loadUnload</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

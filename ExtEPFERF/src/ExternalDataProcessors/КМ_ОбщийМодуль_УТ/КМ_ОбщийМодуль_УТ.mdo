@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70dda8bd-27a0-4dd5-a3f3-9c744a01d38e">
+  <producedTypes>
+    <objectType typeId="ba859c57-a55c-4ba8-b812-d41d0514212d" valueTypeId="a4ed60d4-f136-431d-a4c1-d6e229914ebd"/>
+  </producedTypes>
+  <name>КМ_ОбщийМодуль_УТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>КМ_ОбщийМодуль_УТ</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="2ddf76db-6362-492a-8ba8-cf4ade9b6f10"/>
+</mdclass:ExternalDataProcessor>

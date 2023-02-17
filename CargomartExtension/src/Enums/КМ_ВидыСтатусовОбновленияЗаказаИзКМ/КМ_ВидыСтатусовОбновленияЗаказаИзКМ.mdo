@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d2fb46e-9552-425a-808c-30a3da6fd35c">
+  <producedTypes>
+    <refType typeId="78dc0ed8-e7ce-446c-bc1a-3d6448cf59a3" valueTypeId="d24af4b5-e60c-4a0e-a146-024e515f4b72"/>
+    <listType typeId="f23b7983-dbb2-463f-b705-1bce8e774d27" valueTypeId="bb982dc3-f7ef-4632-aa7f-f96e22ba5993"/>
+    <managerType typeId="0cedf10b-630f-4435-9fc2-4a72dec8fb33" valueTypeId="3c79e435-05db-4c10-b8d3-c111c28a3eca"/>
+  </producedTypes>
+  <name>КМ_ВидыСтатусовОбновленияЗаказаИзКМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды статусов обновления заказа из Каргомарт</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d25dca68-9f72-42f7-b805-bcd422b321ba">
+    <name>УспешноОбновлён</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успешно обновлён</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="027fcad8-01ad-4a51-ae7b-4dfdf66cf503">
+    <name>ОбновлениеНеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновление не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d3c8b95-c165-4331-a8ae-aac915bb4225">
+    <name>ОшибкаОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка обновления</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10177105-2701-4340-bac6-213cb2f8f75f">
+  <producedTypes>
+    <objectType typeId="aee45b1b-94ad-4549-850c-28666fd2949b" valueTypeId="40be7d2c-67f5-4355-a72e-be0bc8c69eb5"/>
+    <managerType typeId="16b95b16-e75b-4528-93dd-4b0a5c763622" valueTypeId="f7560866-39a1-4640-a699-877dd5528e85"/>
+  </producedTypes>
+  <name>КМ_РабочееМесто</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место каргомарт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КМ_РабочееМесто.Form.Форма</defaultForm>
+  <attributes uuid="82888e0d-a29c-4dad-acf7-c78b72db36a0">
+    <name>ОбщийКонтекстКлиентСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОбщийКонтекстКлиентСервер</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9c2b3aec-6448-49ff-b75b-f40e2a565e3e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="168eb95a-ed81-4904-9489-224f3cdb97b7">
+    <name>СоздатьЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать заказ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="99cb7a49-9d54-4cbc-9d73-a28216214c50">
+    <name>КМ_ОбщийМодуль_БП_epf</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ_ОбщийМодуль_БП_epf</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="1bd41483-924e-4e31-9226-d08f9f1667a2">
+    <name>КМ_ОбщийМодуль_УТ_epf</name>
+    <synonym>
+      <key>ru</key>
+      <value>КМ_ОбщийМодуль_УТ_epf</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

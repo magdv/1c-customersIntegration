@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80152f28-b021-445e-b265-9a79b5f17b0e">
+  <producedTypes>
+    <selectionType typeId="91d9407f-71e3-4430-b1f1-b1dca4c1da4e" valueTypeId="bb375d27-cb21-4618-80f8-230691a1d4dd"/>
+    <listType typeId="1419864f-fa27-4e06-9f36-684dc5f74336" valueTypeId="76da3abd-adb7-43c7-a597-fbf7a3473ead"/>
+    <managerType typeId="68543f96-b8dc-4a1a-9669-29f594a777ea" valueTypeId="748d1bc7-04c3-43de-bb71-059059c1dfda"/>
+    <recordSetType typeId="798c8b99-c2f8-48f5-b2d2-2b7ffd104354" valueTypeId="e23fb149-c46a-46e5-b41b-dbaa234588fd"/>
+    <recordKeyType typeId="d92bef61-8b8e-4370-988e-6604d28a6afc" valueTypeId="b998999b-87c8-43ca-ba1b-2478a891d9f0"/>
+    <recordType typeId="03bb8ef8-7582-4ef4-894a-fdb2f019b1f9" valueTypeId="7f49cc9d-dcca-4daa-b53c-bdf24b600c3e"/>
+    <recordManagerType typeId="0f4565c7-af1e-45a6-b02f-9cd47055ea32" valueTypeId="215f7c48-7abd-4737-a41a-b1f67a87ad30"/>
+  </producedTypes>
+  <name>КМ_ДанныеДляВыгрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные для выгрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="4ffd65a1-c95e-4a67-a38e-7b19d48a2cda">
+    <name>ТипОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="dca08b56-b43a-4797-bade-72562d7be53c">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f5f9b0ca-773f-417b-855e-9dfc8bd1a7ea">
+    <name>ОбъектСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КМ_ПунктыПогрузкиВыгрузки</types>
+      <types>CatalogRef.КМ_Сотрудники</types>
+      <types>DocumentRef.КМ_Заказ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
