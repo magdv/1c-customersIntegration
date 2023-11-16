@@ -24,7 +24,7 @@
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="dc2e9b8a-04d0-4a14-97f7-c87dd12598c7"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>КМ_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.17</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.21</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -32,7 +32,7 @@
   <defaultRoles>Role.КМ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.17</compatibilityMode>
+  <compatibilityMode>8.3.21</compatibilityMode>
   <languages uuid="24d6e279-087e-4446-914a-42ac10e2451d">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>
