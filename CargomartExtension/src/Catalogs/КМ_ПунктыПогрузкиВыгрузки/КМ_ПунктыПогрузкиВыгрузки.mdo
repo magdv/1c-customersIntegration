@@ -271,13 +271,29 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment>поле &quot;pointShipper&quot;</comment>
+    <comment>поле &quot;pointShipper&quot;, возможно не нужно.</comment>
     <type>
       <types>UUID</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccffec06-e38c-49ac-9633-52e967af6baa">
+    <name>ЛогЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛогЗагрузки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="73f71beb-4600-4bf8-8bd7-74a7f43317f6">
@@ -347,6 +363,103 @@
         <types>String</types>
         <stringQualifiers>
           <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1f3a66c3-c39f-42ec-9baa-0de2c88cf3d5">
+    <producedTypes>
+      <objectType typeId="03b101cc-65e4-43e3-ade6-397ce8d954e4" valueTypeId="71f892b9-5c95-40d1-ae37-0a683e838c13"/>
+      <rowType typeId="ab6915b3-9099-4930-992d-a2998fcdd8cc" valueTypeId="f1c9f43d-10e1-40b6-a721-637789857888"/>
+    </producedTypes>
+    <name>АдресДляКМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес для КМ</value>
+    </synonym>
+    <comment>Информация для отправки на КМ пункта</comment>
+    <attributes uuid="b592cbae-13f4-4c65-ae0c-f39867eb3696">
+      <name>garGuid</name>
+      <synonym>
+        <key>ru</key>
+        <value>garGuid</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="903eeba2-11f4-47bf-ada3-580efc1e8606">
+      <name>countryCode</name>
+      <synonym>
+        <key>ru</key>
+        <value>countryCode</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24e807ad-e833-4afe-8cd3-07e7c9b28801">
+      <name>code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="477fef05-a0c1-4a05-8688-39fcc08ee4b6">
+      <name>regionName</name>
+      <synonym>
+        <key>ru</key>
+        <value>regionName</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="79bf8c6b-923d-4ce3-8f9f-359cdeeb5a97">
+      <name>standardizedAddress</name>
+      <synonym>
+        <key>ru</key>
+        <value>standardizedAddress</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
         </stringQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
